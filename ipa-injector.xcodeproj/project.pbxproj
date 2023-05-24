@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3270F59E1FCE61A4002CA020 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3270F59D1FCE61A4002CA020 /* AppDelegate.m */; };
+		3270F5A11FCE61A4002CA020 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3270F5A01FCE61A4002CA020 /* ViewController.m */; };
+		3270F5A41FCE61A4002CA020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3270F5A21FCE61A4002CA020 /* Main.storyboard */; };
+		3270F5A61FCE61A4002CA020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3270F5A51FCE61A4002CA020 /* Assets.xcassets */; };
+		3270F5A91FCE61A4002CA020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3270F5A71FCE61A4002CA020 /* LaunchScreen.storyboard */; };
+		3270F5AC1FCE61A4002CA020 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3270F5AB1FCE61A4002CA020 /* main.m */; };
+		3270F5B61FCE61A4002CA020 /* ipa-injectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3270F5B51FCE61A4002CA020 /* ipa-injectorTests.m */; };
+		3270F5C11FCE61A4002CA020 /* ipa-injectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3270F5C01FCE61A4002CA020 /* ipa-injectorUITests.m */; };
+		ACCD8A2BC5BA7EEB9BF2D692 /* libPods-ipa-injectorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1AEB43B7C50E6E2447B338 /* libPods-ipa-injectorTests.a */; };
+		CDA0B688FA8EFE0E51949C78 /* libPods-ipa-injector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A82EE21683AC5E6E1B24D507 /* libPods-ipa-injector.a */; };
+		EA746196C702408F712923D4 /* libPods-ipa-injectorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8520ECA952666A017DA20D /* libPods-ipa-injectorUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3270F5B21FCE61A4002CA020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3270F5911FCE61A4002CA020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3270F5981FCE61A4002CA020;
+			remoteInfo = "ipa-injector";
+		};
+		3270F5BD1FCE61A4002CA020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3270F5911FCE61A4002CA020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3270F5981FCE61A4002CA020;
+			remoteInfo = "ipa-injector";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01214BAB43AADAAD0536A37D /* Pods-ipa-injectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipa-injectorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ipa-injectorTests/Pods-ipa-injectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		046C5C3D95851308F692499C /* Pods-ipa-injectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipa-injectorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ipa-injectorTests/Pods-ipa-injectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A1AEB43B7C50E6E2447B338 /* libPods-ipa-injectorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ipa-injectorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		122D5C65AF3E9471388D785C /* Pods-ipa-injectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipa-injectorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ipa-injectorUITests/Pods-ipa-injectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E40598AFE9C48311CAA9254 /* Pods-ipa-injector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipa-injector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ipa-injector/Pods-ipa-injector.debug.xcconfig"; sourceTree = "<group>"; };
+		3270F5991FCE61A4002CA020 /* ipa-injector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ipa-injector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3270F59C1FCE61A4002CA020 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3270F59D1FCE61A4002CA020 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3270F59F1FCE61A4002CA020 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3270F5A01FCE61A4002CA020 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3270F5A31FCE61A4002CA020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3270F5A51FCE61A4002CA020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3270F5A81FCE61A4002CA020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3270F5AA1FCE61A4002CA020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3270F5AB1FCE61A4002CA020 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3270F5B11FCE61A4002CA020 /* ipa-injectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ipa-injectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3270F5B51FCE61A4002CA020 /* ipa-injectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ipa-injectorTests.m"; sourceTree = "<group>"; };
+		3270F5B71FCE61A4002CA020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3270F5BC1FCE61A4002CA020 /* ipa-injectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ipa-injectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3270F5C01FCE61A4002CA020 /* ipa-injectorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ipa-injectorUITests.m"; sourceTree = "<group>"; };
+		3270F5C21FCE61A4002CA020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B8520ECA952666A017DA20D /* libPods-ipa-injectorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ipa-injectorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F13549FDD78CAC07DEED205 /* Pods-ipa-injectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipa-injectorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ipa-injectorUITests/Pods-ipa-injectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F8D3C1AE87C8284C65AEECA /* Pods-ipa-injector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipa-injector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ipa-injector/Pods-ipa-injector.debug.xcconfig"; sourceTree = "<group>"; };
+		777CEB7A7D3BCBD004F78A7E /* Pods-ipa-injectorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipa-injectorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ipa-injectorUITests/Pods-ipa-injectorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A82EE21683AC5E6E1B24D507 /* libPods-ipa-injector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ipa-injector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD605C4599766B39D01B6D7D /* Pods-ipa-injector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipa-injector.release.xcconfig"; path = "Pods/Target Support Files/Pods-ipa-injector/Pods-ipa-injector.release.xcconfig"; sourceTree = "<group>"; };
+		BFA2152F4286B814131324AA /* Pods-ipa-injectorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipa-injectorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ipa-injectorTests/Pods-ipa-injectorTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9E705F6076252489273921E /* Pods-ipa-injectorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipa-injectorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ipa-injectorTests/Pods-ipa-injectorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F85481D145E44BC8B4301A73 /* Pods-ipa-injector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipa-injector.release.xcconfig"; path = "Pods/Target Support Files/Pods-ipa-injector/Pods-ipa-injector.release.xcconfig"; sourceTree = "<group>"; };
+		FEB2C1EB93E951B366E952E1 /* Pods-ipa-injectorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipa-injectorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ipa-injectorUITests/Pods-ipa-injectorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3270F5961FCE61A4002CA020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA0B688FA8EFE0E51949C78 /* libPods-ipa-injector.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3270F5AE1FCE61A4002CA020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCD8A2BC5BA7EEB9BF2D692 /* libPods-ipa-injectorTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3270F5B91FCE61A4002CA020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA746196C702408F712923D4 /* libPods-ipa-injectorUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3270F5901FCE61A4002CA020 = {
+			isa = PBXGroup;
+			children = (
+				3270F59B1FCE61A4002CA020 /* ipa-injector */,
+				3270F5B41FCE61A4002CA020 /* ipa-injectorTests */,
+				3270F5BF1FCE61A4002CA020 /* ipa-injectorUITests */,
+				3270F59A1FCE61A4002CA020 /* Products */,
+				F160AB058E198249A4185B6B /* Pods */,
+				753261C1B39C01FB3CC78B62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3270F59A1FCE61A4002CA020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3270F5991FCE61A4002CA020 /* ipa-injector.app */,
+				3270F5B11FCE61A4002CA020 /* ipa-injectorTests.xctest */,
+				3270F5BC1FCE61A4002CA020 /* ipa-injectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3270F59B1FCE61A4002CA020 /* ipa-injector */ = {
+			isa = PBXGroup;
+			children = (
+				3270F59C1FCE61A4002CA020 /* AppDelegate.h */,
+				3270F59D1FCE61A4002CA020 /* AppDelegate.m */,
+				3270F59F1FCE61A4002CA020 /* ViewController.h */,
+				3270F5A01FCE61A4002CA020 /* ViewController.m */,
+				3270F5A21FCE61A4002CA020 /* Main.storyboard */,
+				3270F5A51FCE61A4002CA020 /* Assets.xcassets */,
+				3270F5A71FCE61A4002CA020 /* LaunchScreen.storyboard */,
+				3270F5AA1FCE61A4002CA020 /* Info.plist */,
+				3270F5AB1FCE61A4002CA020 /* main.m */,
+			);
+			path = "ipa-injector";
+			sourceTree = "<group>";
+		};
+		3270F5B41FCE61A4002CA020 /* ipa-injectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3270F5B51FCE61A4002CA020 /* ipa-injectorTests.m */,
+				3270F5B71FCE61A4002CA020 /* Info.plist */,
+			);
+			path = "ipa-injectorTests";
+			sourceTree = "<group>";
+		};
+		3270F5BF1FCE61A4002CA020 /* ipa-injectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3270F5C01FCE61A4002CA020 /* ipa-injectorUITests.m */,
+				3270F5C21FCE61A4002CA020 /* Info.plist */,
+			);
+			path = "ipa-injectorUITests";
+			sourceTree = "<group>";
+		};
+		753261C1B39C01FB3CC78B62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A82EE21683AC5E6E1B24D507 /* libPods-ipa-injector.a */,
+				0A1AEB43B7C50E6E2447B338 /* libPods-ipa-injectorTests.a */,
+				5B8520ECA952666A017DA20D /* libPods-ipa-injectorUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F160AB058E198249A4185B6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E40598AFE9C48311CAA9254 /* Pods-ipa-injector.debug.xcconfig */,
+				AD605C4599766B39D01B6D7D /* Pods-ipa-injector.release.xcconfig */,
+				E9E705F6076252489273921E /* Pods-ipa-injectorTests.debug.xcconfig */,
+				01214BAB43AADAAD0536A37D /* Pods-ipa-injectorTests.release.xcconfig */,
+				FEB2C1EB93E951B366E952E1 /* Pods-ipa-injectorUITests.debug.xcconfig */,
+				5F13549FDD78CAC07DEED205 /* Pods-ipa-injectorUITests.release.xcconfig */,
+				6F8D3C1AE87C8284C65AEECA /* Pods-ipa-injector.debug.xcconfig */,
+				F85481D145E44BC8B4301A73 /* Pods-ipa-injector.release.xcconfig */,
+				046C5C3D95851308F692499C /* Pods-ipa-injectorTests.debug.xcconfig */,
+				BFA2152F4286B814131324AA /* Pods-ipa-injectorTests.release.xcconfig */,
+				122D5C65AF3E9471388D785C /* Pods-ipa-injectorUITests.debug.xcconfig */,
+				777CEB7A7D3BCBD004F78A7E /* Pods-ipa-injectorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3270F5981FCE61A4002CA020 /* ipa-injector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3270F5C51FCE61A4002CA020 /* Build configuration list for PBXNativeTarget "ipa-injector" */;
+			buildPhases = (
+				55997B009BB7EEFAEB8C0550 /* [CP] Check Pods Manifest.lock */,
+				3270F5951FCE61A4002CA020 /* Sources */,
+				3270F5961FCE61A4002CA020 /* Frameworks */,
+				3270F5971FCE61A4002CA020 /* Resources */,
+				AAF2D17318E0E67A70175026 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ipa-injector";
+			productName = "ipa-injector";
+			productReference = 3270F5991FCE61A4002CA020 /* ipa-injector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3270F5B01FCE61A4002CA020 /* ipa-injectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3270F5C81FCE61A4002CA020 /* Build configuration list for PBXNativeTarget "ipa-injectorTests" */;
+			buildPhases = (
+				EE2ACDD849273C74B46B59B8 /* [CP] Check Pods Manifest.lock */,
+				3270F5AD1FCE61A4002CA020 /* Sources */,
+				3270F5AE1FCE61A4002CA020 /* Frameworks */,
+				3270F5AF1FCE61A4002CA020 /* Resources */,
+				809A2210F0671FA7156043C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3270F5B31FCE61A4002CA020 /* PBXTargetDependency */,
+			);
+			name = "ipa-injectorTests";
+			productName = "ipa-injectorTests";
+			productReference = 3270F5B11FCE61A4002CA020 /* ipa-injectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3270F5BB1FCE61A4002CA020 /* ipa-injectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3270F5CB1FCE61A4002CA020 /* Build configuration list for PBXNativeTarget "ipa-injectorUITests" */;
+			buildPhases = (
+				EAF974B838D2C611DC82F09F /* [CP] Check Pods Manifest.lock */,
+				3270F5B81FCE61A4002CA020 /* Sources */,
+				3270F5B91FCE61A4002CA020 /* Frameworks */,
+				3270F5BA1FCE61A4002CA020 /* Resources */,
+				7E4F6FDD15EF897CA4002586 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3270F5BE1FCE61A4002CA020 /* PBXTargetDependency */,
+			);
+			name = "ipa-injectorUITests";
+			productName = "ipa-injectorUITests";
+			productReference = 3270F5BC1FCE61A4002CA020 /* ipa-injectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3270F5911FCE61A4002CA020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Back4App;
+				TargetAttributes = {
+					3270F5981FCE61A4002CA020 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3270F5B01FCE61A4002CA020 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3270F5981FCE61A4002CA020;
+					};
+					3270F5BB1FCE61A4002CA020 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3270F5981FCE61A4002CA020;
+					};
+				};
+			};
+			buildConfigurationList = 3270F5941FCE61A4002CA020 /* Build configuration list for PBXProject "ipa-injector" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3270F5901FCE61A4002CA020;
+			productRefGroup = 3270F59A1FCE61A4002CA020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3270F5981FCE61A4002CA020 /* ipa-injector */,
+				3270F5B01FCE61A4002CA020 /* ipa-injectorTests */,
+				3270F5BB1FCE61A4002CA020 /* ipa-injectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3270F5971FCE61A4002CA020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3270F5A91FCE61A4002CA020 /* LaunchScreen.storyboard in Resources */,
+				3270F5A61FCE61A4002CA020 /* Assets.xcassets in Resources */,
+				3270F5A41FCE61A4002CA020 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3270F5AF1FCE61A4002CA020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3270F5BA1FCE61A4002CA020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55997B009BB7EEFAEB8C0550 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ipa-injector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E4F6FDD15EF897CA4002586 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ipa-injectorUITests/Pods-ipa-injectorUITests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Parse/Parse.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Parse.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ipa-injectorUITests/Pods-ipa-injectorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		809A2210F0671FA7156043C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ipa-injectorTests/Pods-ipa-injectorTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Parse/Parse.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Parse.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ipa-injectorTests/Pods-ipa-injectorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAF2D17318E0E67A70175026 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ipa-injector/Pods-ipa-injector-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/Parse/Parse.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Parse.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ipa-injector/Pods-ipa-injector-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAF974B838D2C611DC82F09F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ipa-injectorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2ACDD849273C74B46B59B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ipa-injectorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3270F5951FCE61A4002CA020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3270F5A11FCE61A4002CA020 /* ViewController.m in Sources */,
+				3270F5AC1FCE61A4002CA020 /* main.m in Sources */,
+				3270F59E1FCE61A4002CA020 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3270F5AD1FCE61A4002CA020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3270F5B61FCE61A4002CA020 /* ipa-injectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3270F5B81FCE61A4002CA020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3270F5C11FCE61A4002CA020 /* ipa-injectorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3270F5B31FCE61A4002CA020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3270F5981FCE61A4002CA020 /* ipa-injector */;
+			targetProxy = 3270F5B21FCE61A4002CA020 /* PBXContainerItemProxy */;
+		};
+		3270F5BE1FCE61A4002CA020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3270F5981FCE61A4002CA020 /* ipa-injector */;
+			targetProxy = 3270F5BD1FCE61A4002CA020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3270F5A21FCE61A4002CA020 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3270F5A31FCE61A4002CA020 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3270F5A71FCE61A4002CA020 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3270F5A81FCE61A4002CA020 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3270F5C31FCE61A4002CA020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3270F5C41FCE61A4002CA020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3270F5C61FCE61A4002CA020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8D3C1AE87C8284C65AEECA /* Pods-ipa-injector.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ipa-injector/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ipa-injector";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipa.injector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3270F5C71FCE61A4002CA020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F85481D145E44BC8B4301A73 /* Pods-ipa-injector.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ipa-injector/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ipa-injector";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipa.injector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3270F5C91FCE61A4002CA020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046C5C3D95851308F692499C /* Pods-ipa-injectorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ipa-injectorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipa.injectorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ipa-injector.app/ipa-injector";
+			};
+			name = Debug;
+		};
+		3270F5CA1FCE61A4002CA020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA2152F4286B814131324AA /* Pods-ipa-injectorTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6YE8HKHMPN;
+				INFOPLIST_FILE = "ipa-injectorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.back4app.ipa-injectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ipa-injector.app/ipa-injector";
+			};
+			name = Release;
+		};
+		3270F5CC1FCE61A4002CA020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122D5C65AF3E9471388D785C /* Pods-ipa-injectorUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ipa-injectorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipa.injectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ipa-injector";
+			};
+			name = Debug;
+		};
+		3270F5CD1FCE61A4002CA020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 777CEB7A7D3BCBD004F78A7E /* Pods-ipa-injectorUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ipa-injectorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipa.injectorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ipa-injector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3270F5941FCE61A4002CA020 /* Build configuration list for PBXProject "ipa-injector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3270F5C31FCE61A4002CA020 /* Debug */,
+				3270F5C41FCE61A4002CA020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3270F5C51FCE61A4002CA020 /* Build configuration list for PBXNativeTarget "ipa-injector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3270F5C61FCE61A4002CA020 /* Debug */,
+				3270F5C71FCE61A4002CA020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3270F5C81FCE61A4002CA020 /* Build configuration list for PBXNativeTarget "ipa-injectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3270F5C91FCE61A4002CA020 /* Debug */,
+				3270F5CA1FCE61A4002CA020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3270F5CB1FCE61A4002CA020 /* Build configuration list for PBXNativeTarget "ipa-injectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3270F5CC1FCE61A4002CA020 /* Debug */,
+				3270F5CD1FCE61A4002CA020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3270F5911FCE61A4002CA020 /* Project object */;
+}
