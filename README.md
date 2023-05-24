@@ -5,9 +5,9 @@ Application that allow to take a .ipa file binary of an app and download it with
 
 
 ## Language & Tools used:
-<img src="https://github.com/Antoinegtir/ipa-injector/blob/main/screenshot/logo.jpg?raw=true"/>
+<img width="20%" src="https://github.com/Antoinegtir/ipa-injector/blob/main/screenshot/logo.jpg?raw=true"/>
 
-<img width="20%" src="https://skillicons.dev/icons?i=c,ruby,Xcode"/>
+<img src="https://skillicons.dev/icons?i=c,ruby,Xcode"/>
 
 Home install               |  Select .ipa file
 :-------------------------:|:-------------------------:
