@@ -1,11 +1,11 @@
 # ipa-injector
 
+<img width="20%" src="https://github.com/Antoinegtir/ipa-injector/blob/main/screenshot/logo.jpg?raw=true"/>
+
 ## Description:
 Application that allow to take a .ipa file binary of an app and download it without installing the app with the apple store.
 
-
 ## Language & Tools used:
-<img width="20%" src="https://github.com/Antoinegtir/ipa-injector/blob/main/screenshot/logo.jpg?raw=true"/>
 
 <img src="https://skillicons.dev/icons?i=c,ruby,Xcode"/>
 
