@@ -1,0 +1,19 @@
+version: 2.1
+
+jobs:
+  build:
+    macos:
+      xcode: "12.5.0"
+    steps:
+      - checkout
+
+      - run:
+          name: Install dependencies
+          command: |
+            gem install bundler
+            bundle install
+
+      - run:
+          name: Build and test
+          command: |
+            xcodebuild clean build -workspace ipa-injector.xcworkspace -scheme ipa-injector -destination 'platform=iOS Simulator,OS=latest,name=iPhone 12' CODE_SIGNING_REQUIRED=NO

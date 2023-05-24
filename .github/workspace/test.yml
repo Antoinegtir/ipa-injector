@@ -1,0 +1,25 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      - name: Build and test
+        run: |
+          xcodebuild clean build test -workspace ipa-injector.xcworkspace -scheme ipa-injector -destination 'platform=iOS Simulator,OS=latest,name=iPhone 12' CODE_SIGNING_REQUIRED=NO
